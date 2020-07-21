@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">IDLogin</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Attendance">Attendance</string>
+    <string name="password">Password</string>
+    <string name="enrollment_number">Enrollment Number</string>
+    <string name="pin">PIN</string>
+    <string name="signup">SIGNUP</string>
+    <string name="balance">Balance</string>
+    <string name="name">Name</string>
+    <string name="id_number">ID Number</string>
+    <string name="student_register">STUDENT REGISTER</string>
+    <string name="scan">SCAN</string>
+    <string name="id_wallet_svit">ID Wallet SVIT</string>
+    <string name="check_balance">Check Balance</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="recharge">Recharge</string>
+    <string name="proceed">Proceed</string>
+    <string name="check_the_balance_of_the_student_by_looking_into_student_table_from_database">CHECK THE BALANCE OF THE STUDENT BY LOOKING INTO STUDENT TABLE FROM DATABASE</string>
+    <string name="the_pin_is_to_be_taken_from_the_student_and_verified_and_after_that_the_tflag_shall_be_reversed">THE PIN IS TO BE TAKEN FROM THE STUDENT AND VERIFIED AND AFTER THAT THE TFLAG SHALL BE REVERSED</string>
+    <string name="signup_login">Signup/Login</string>
+    <string name="enrolment_number">Enrolment Number</string>
+    <string name="student_login">STUDENT LOGIN</string>
+    <string name="faculty_login">FACULTY LOGIN</string>
+    <string name="keeper_login">KEEPER LOGIN</string>
+    <string name="admin_login">ADMIN LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="receive_payment">Receive Payment</string>
+    <string name="summary">Summary</string>
+    <string name="bank_payment">Bank Payment</string>
+</resources>

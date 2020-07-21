@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.idlogin.Fragments.StudentCheckBalance">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_the_balance_of_the_student_by_looking_into_student_table_from_database"
+        android:textSize="20sp"
+        android:layout_marginTop="200sp"
+        android:gravity="center"/>
+
+</FrameLayout>

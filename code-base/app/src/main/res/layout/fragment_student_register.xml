@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.StudentRegister">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+
+        <TextView
+            android:id="@+id/srtvheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/background_dark"
+            android:text="STUDENT REGISTER" />
+
+        <EditText
+            android:id="@+id/srID"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="ID Number"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHint="?attr/colorButtonNormal"
+            android:layout_below="@+id/srtvheader"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/srenrollmentnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Enrollment Number"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHint="?attr/colorButtonNormal"
+            android:layout_below="@+id/srID"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp" />
+
+        <EditText
+            android:id="@+id/srname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHint="?attr/colorButtonNormal"
+            android:layout_below="@+id/srenrollmentnumber"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp" />
+
+        <EditText
+            android:id="@+id/srbalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Balance"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHint="?attr/colorButtonNormal"
+            android:layout_below="@+id/srname"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/srPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHint="?attr/colorButtonNormal"
+            android:layout_below="@+id/srbalance"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="11dp" />
+
+        <EditText
+            android:id="@+id/srpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="PIN"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHint="?attr/colorButtonNormal"
+            android:layout_below="@+id/srPassword"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp" />
+
+        <Button
+            android:id="@+id/srregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGNUP"
+            android:background="#999999"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@+id/srpin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp" />
+
+        <Button
+            android:id="@+id/srscan"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_above="@+id/srenrollmentnumber"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:text="SCAN" />
+
+    </RelativeLayout>
+
+</ScrollView>

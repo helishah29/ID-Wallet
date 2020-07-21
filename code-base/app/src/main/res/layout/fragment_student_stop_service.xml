@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.idlogin.Fragments.StudentStopService">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/the_pin_is_to_be_taken_from_the_student_and_verified_and_after_that_the_tflag_shall_be_reversed"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"/>
+
+</FrameLayout>

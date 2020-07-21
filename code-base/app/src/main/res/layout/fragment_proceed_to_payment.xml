@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.idlogin.Fragments.ProceedToPayment">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Enter customer's details" />
+
+    <EditText
+        android:id="@+id/toalPayableamount"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tv"
+        android:layout_alignRight="@+id/tv"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Total Amount"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textColorHint="?attr/colorButtonNormal" />
+
+    <EditText
+        android:id="@+id/scanCustomersID"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toalPayableamount"
+        android:layout_alignStart="@+id/toalPayableamount"
+        android:layout_below="@+id/toalPayableamount"
+        android:layout_marginTop="21dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="ID Number"
+        android:padding="15dp"
+        android:textColorHint="?attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/buttonScanCustomerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/scanCustomersID"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="SCAN" />
+
+    <EditText
+        android:id="@+id/CustomerPin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scanCustomersID"
+        android:layout_alignStart="@+id/scanCustomersID"
+        android:layout_below="@+id/scanCustomersID"
+        android:layout_marginTop="21dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="PIN"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textColorHint="?attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/Pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CustomerPin"
+        android:layout_alignStart="@+id/CustomerPin"
+        android:layout_below="@+id/CustomerPin"
+        android:layout_marginLeft="79dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:text="Payment" />
+
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.idlogin.Fragments.KeeperReceivePayment">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Enter Item Details" />
+
+    <EditText
+        android:id="@+id/itemCode"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Item Code"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColorHint="?attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itemCode"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/itemCode"
+        android:layout_toRightOf="@+id/itemCode"
+        android:textSize="20sp"
+        android:text="SCAN" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/itemCode"
+        android:layout_alignStart="@+id/itemCode"
+        android:layout_below="@+id/itemCode"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textColorHint="?attr/colorButtonNormal" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quantity"
+        android:layout_alignStart="@+id/quantity"
+        android:layout_below="@+id/quantity"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:textColorHint="?attr/colorButtonNormal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290sp"
+        android:layout_alignLeft="@+id/quantity"
+        android:id="@+id/totalAmount"
+        android:text="Total:"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/moreItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/amount"
+        android:layout_alignStart="@+id/amount"
+        android:layout_below="@+id/amount"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="61dp"
+        android:textSize="20sp"
+        android:text="Item+" />
+
+    <Button
+        android:id="@+id/doPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/scanButton"
+        android:layout_alignRight="@+id/scanButton"
+        android:layout_alignTop="@+id/moreItem"
+        android:text="Proceed to Payment"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:id="@+id/FragmentScanCustomerID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"></FrameLayout>
+</RelativeLayout>
